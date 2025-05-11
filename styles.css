@@ -1,0 +1,126 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50; /* Color oscuro para el encabezado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.8em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Sección de detalles del terreno */
+#details {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#details h2 {
+    font-size: 2.3em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+#details p {
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+/* Sección de galería de imágenes */
+#gallery {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#gallery h2 {
+    font-size: 2.3em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: height;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: height;
+    gap: 15px;
+}
+
+.image-container img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Enlace de contacto (WhatsApp) */
+a {
+    text-decoration: none;
+    color: #16a085;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.5em;
+}
+
+#map {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+#map iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+#map h2 {
+    font-size: 2.3em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
